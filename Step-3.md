@@ -53,7 +53,7 @@ AWS MultiA-Zについて調べてみましょう(10分)
 ![aurora-cluster-1](./images/step-3/aurora-cluster-1.png "AURORA-CLUSTER1")
 
 ----
-**クラスターエンドポイント、読み込みエンドポイントの確認をしましょう**
+**クラスターエンドポイント(上)、読み込みエンドポイント(下)の確認をしましょう**
 
 ![aurora-cluster-2](./images/step-3/aurora-cluster-2.png "AURORA-CLUSTER3")
 
