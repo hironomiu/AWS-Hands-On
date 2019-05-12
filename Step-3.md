@@ -19,7 +19,7 @@ AWS MultiA-Zについて調べてみましょう(10分)
 ![multiaz-1](./images/step-3/multiaz-1.png "MULTIAZ1")
 
 ----
-**左側のインスンタンスリンクをクリックし、作成したAuroraインスタンス(wp-userXX)をチェックし、インスタンスの操作のプルダウンからAuroraレプリカの作成を選択しましょう**
+**左側のデータベースリンクをクリックしクラスターにチェック、アクションからリーダーの追加を押下**
 
 ![multiaz-2](./images/step-3/multiaz-2.png "MULTIAZ2")
 
