@@ -74,13 +74,16 @@ $ ssh -i 1day-userXX.pem -o StrictHostKeyChecking=no ec2-user@ec2-XXXXXX.com
 ```
 $ mysql -u admin -p -hwp-user05-cluster.cluster-cenae7eyijpr.ap-northeast-1.rds.amazonaws.com
 
-mysql> select @read_only;
-+------------+
-| @read_only |
-+------------+
-| NULL       |
-+------------+
-1 row in set (0.00 sec)
+mysql> show databases;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| mysql              |
+| performance_schema |
+| wordpress          |
++--------------------+
+4 rows in set (0.01 sec)
 
 mysql> exit
 ```
@@ -105,6 +108,17 @@ Address: 10.0.2.226
 ```
 $ mysql -u admin -p -hwp-userXX-cluster.cluster-ro-cenae7eyijpr.ap-northeast-1.rds.amazonaws.com
 
+mysql> show databases;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| mysql              |
+| performance_schema |
+| wordpress          |
++--------------------+
+4 rows in set (0.02 sec)
+
 mysql> select @read_only;
 +------------+
 | @read_only |
@@ -112,6 +126,9 @@ mysql> select @read_only;
 | NULL       |
 +------------+
 1 row in set (0.01 sec)
+
+mysql> create database hoge;
+ERROR 1290 (HY000): The MySQL server is running with the --read-only option so it cannot execute this statement
 
 mysql> exit
 ```
