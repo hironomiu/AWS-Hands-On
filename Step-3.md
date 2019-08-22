@@ -240,7 +240,7 @@ Address: 10.0.2.226
 ![create-ec2-1](./images/step-3/create-ec2-1.png "CREATE-EC2-1")
 
 ----
-**アクションプルダウンから作成を選択**
+**アクションプルダウンから起動を選択**
 
 ![create-ec2-2](./images/step-3/create-ec2-2.png "CREATE-EC2-2")
 
