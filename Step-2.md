@@ -85,20 +85,12 @@ S3について調べてみましょう(5分)
 ![rds-1](./images/step-2/rds-1.png "RDS1")
 
 ----
-**Amazon Auroraを選択し次へボタンを押下**
+**Standard Create、Amazon Auroraを選択し下へスクロール**
 
 ![rds-2](./images/step-2/rds-2.png "RDS2")
 
 ----
-**マスターパスワードは「wordpress」を指定、DBインスタンスは一番上のdb.t2.smallを選択、その他は以下を確認しましょう。全て設定したら次へボタンを押下**
-
-|項目|設定値|
-|:-|:-|
-|DBインスタンスのクラス|db.t2.small|
-|マルチAZ配置|いいえ|
-|DBインスタンス識別子|wp-userXX XXは自身のID|
-|マスターユーザの名前|admin|
-|マスターパスワード|wordpress|
+**リージョン別、１つのライターと複数のリーダーを指定しスクロール**
 
 ![rds-3](./images/step-2/rds-3.png "RDS3")
 
