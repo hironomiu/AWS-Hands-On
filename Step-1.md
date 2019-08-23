@@ -137,7 +137,7 @@ Step-1ではVPCを作成し、WordpressがインストールされたAMIを用�
 ![ec2-4](./images/step-1/ec2-4.png "EC24")
 
 ----
-**ネットワークには自分が作成したVPCを選択、サブネットは10.0.0.0/24(ap-noatheast-1d)のパブリックサブネットを選択、自動割り当てパブリックIPは有効化を選択し、次の手順：ストレージの選択を押下**
+**ネットワークには自分が作成したVPCを選択、サブネットは10.0.0.0/24(ap-noatheast-1d)のパブリックサブネットを選択、自動割り当てパブリックIPは「有効」を選択し、次の手順：ストレージの選択を押下**
 
 ![ec2-5](./images/step-1/ec2-5.png "EC25")
 
@@ -186,6 +186,9 @@ Step-1ではVPCを作成し、WordpressがインストールされたAMIを用�
 
 ![ec2-14](./images/step-1/ec2-14.png "EC214")
 
+「パブリックDNS(IPv4)」の値をブラウザで表示させましょう。Wordpressの設定画面が表示されれば成功です。
+
+![wordpress-1](./images/step-1/wordpress-1.png "Wordpress1")
 ----
 
 ## Question AMIとは
@@ -227,7 +230,7 @@ mysql> show databases;
 3.このサーバの基本スペック(CPU数、メモリ、DISK容量など)を確認しましょう。
 
 ## Wordpressの初期設定
-**「パブリックDNS(IPv4)」の値でブラウザを開きましょう。Wordpressのサイトが開けば作成成功です。初期設定では「日本語」を選択し続けるボタンを押下**
+**Wordpressの初期設定では「日本語」を選択し続けるボタンを押下**
 
 ![wordpress-1](./images/step-1/wordpress-1.png "Wordpress1")
 
