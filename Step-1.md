@@ -186,7 +186,7 @@ Step-1ではVPCを作成し、WordpressがインストールされたAMIを用�
 
 ![ec2-14](./images/step-1/ec2-14.png "EC214")
 
-「パブリックDNS(IPv4)」の値をブラウザで表示させましょう。Wordpressの設定画面が表示されれば成功です。
+**「パブリックDNS(IPv4)」の値をブラウザで表示させましょう。Wordpressの設定画面が表示されれば成功です。**
 
 ![wordpress-1](./images/step-1/wordpress-1.png "Wordpress1")
 ----
