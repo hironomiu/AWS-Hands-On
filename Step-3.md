@@ -23,7 +23,7 @@ Step-3ではWebサーバとアプリケーションレイヤの水平分散、�
 ![multiaz-3-1](./images/step-3/multiaz-3-1.png "MULTIAZ3-1")
 
 ----
-**下にスクロールし、インスタンスの仕様は"db.t2.small"が選択されていること、設定でのDBインスタンス識別子では「wp-user05-slave」としましょう**
+**下にスクロールし、インスタンスの仕様は"db.t2.small"が選択されていること、設定でのDBインスタンス識別子では「wp-ユーザ名-slave(例 wp-user05-slave)」としましょう**
 
 ![multiaz-3-2](./images/step-3/multiaz-3-2.png "MULTIAZ3-2")
 
