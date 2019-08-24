@@ -177,11 +177,6 @@ S3について調べてみましょう(5分)
 ![rds-13](./images/step-2/rds-13.png "RDS13")
 
 ----
-
-## Question RDS、Auroraとは
-今作成したRDS(Relational Database Service)、Auroraについて調べてみましょう(10分)
-
-----
 **クラスターのリンクをクリックし自分のユーザ名のあるクラスター識別子のリンクをクリックしましょう**
 
 ![rds-13](./images/step-2/rds-13.png "RDS13")
@@ -190,6 +185,11 @@ S3について調べてみましょう(5分)
 **クラスターエンドポイント(上)、読み込みエンドポイント(下)をメモしましょう。このエンドポイントがAuroraにアクセスする際に利用します**
 
 ![rds-14](./images/step-2/rds-14.png "RDS14")
+
+----
+
+## Question RDS、Auroraとは
+今作成したRDS(Relational Database Service)、Auroraについて調べてみましょう(10分)
 
 ----
 
