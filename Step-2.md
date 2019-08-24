@@ -297,6 +297,16 @@ $ sudo systemctl disable mysqld.service
 $ sudo systemctl stop mysqld.service
 ```
 
+----
+**ブラウザでWordpressのサイトを確認しましょう**
+
+![rds-15](./images/step-2/rds-15.png "RDS15")
+
+## Question Httpステータスコードの確認
+表示したWordpressサイトのHttpステータスコードを確認しましょう(5分)
+
+----
+
 **データベースのリストア**
 
 **Auroraのクラスタエンドポイントを指定してexport.sqlをリストアしましょう**
