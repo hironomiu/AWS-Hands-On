@@ -61,7 +61,7 @@ S3について調べてみましょう(5分)
 
 |項目|設定値|
 |:-|:-|
-|名前|db subnet ユーザ名 (例 db subnet user05)|
+|名前|db-subnet-ユーザ名 (例 db-subnet-user05)|
 |説明|RDS for Aurora|
 |VPC|作成したVPC(vpc-userXX)を指定|
 
