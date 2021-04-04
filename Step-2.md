@@ -400,49 +400,33 @@ $ sudo vi /var/www/html/wordpress/wp-config.php
 
 ---
 
-**バケットを作成するボタンを押下**
+**「バケットを作成」を押下**
 
 ![create-s3-2](./images/step-2/create-s3-2.png "CREATE-S3-2")
 
 ---
 
-**S3 名は「s3-1day-userXX」ユーザ ID は自身のを指定、その後、作成ボタンを押下**
+**バケット名は「s3-1day-userXX」ユーザ ID は自身のを指定、「パブリックアクセスをすべて ブロック」のチェックを外す**
 
 ![create-s3-3](./images/step-2/create-s3-3.png "CREATE-S3-3")
 
 ---
 
-**作成した S3 のリンクを押下**
+**「現在の設定により、このバケットとバケット内のオブジェクトが公開される可能性があることを承認します。」にチェック**
 
-![create-s3-4](./images/step-2/create-s3-4.png "CREATE-S3-4")
+**注意：この ACL の設定は今回の勉強会用であり、正規のサイト構築時には都度必要な ACL の設定を心がけましょう**
 
----
-
-**アクセス権限、パブリックアクセス権限、編集を押下**
-
-![create-s3-5](./images/step-2/create-s3-5.png "CREATE-S3-5")
+![create-s3-3b](./images/step-2/create-s3-3b.png "CREATE-S3-3B")
 
 ---
 
-**チェックを全て外す**
+**「バケットを作成」を押下**
 
-![create-s3-6](./images/step-2/create-s3-6.png "CREATE-S3-6")
-
-## **注意：この ACL の設定は今回の勉強会用であり、正規のサイト構築時には NG です。必要な ACL の設定を心がけましょう**
-
-**アクセスコントロールリスト、Everyone を押下**
-
-![create-s3-7](./images/step-2/create-s3-7.png "CREATE-S3-7")
+![create-s3-3c](./images/step-2/create-s3-3c.png "CREATE-S3-3C")
 
 ---
 
-**全てにチェックを入れ保存を押下**
-
-![create-s3-8](./images/step-2/create-s3-8.png "CREATE-S3-8")
-
----
-
-**Media Library タブを選択し、作成した S3 バケット名を入力し、Save Bucket ボタンを押下**
+**Wordpress Media Library タブを選択し、作成した S3 バケット名を入力し、Save Bucket ボタンを押下**
 
 ![plugin-7](./images/step-2/plugin-7.png "PLUGIN7")
 
