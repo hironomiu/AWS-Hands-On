@@ -343,10 +343,12 @@ Enter password:
 
 ## Wordpress の DB 接続変更
 
+**`wp-userXX-cluster.cluster-xxxxxxxxxx.ap-northeast-1.rds.amazonaws.com` は各自の Aurora のクラスタエンドポイントを指定しましょう**
+
 ```
 $ sudo vi /var/www/html/wordpress/wp-config.php
 - define('DB_HOST', 'localhost');
-+ define('DB_HOST', 'wp-userXX-cluster.cluster-cenae7eyijpr.ap-northeast-1.rds.amazonaws.com');
++ define('DB_HOST', 'wp-userXX-cluster.cluster-xxxxxxxxxx.ap-northeast-1.rds.amazonaws.com');
 ```
 
 **ブラウザで Wordpress サイトである、EC2 インスタンスのパブリック DNS (IPv4)を開きましょう。データリストア前と同様に Wordpress が表示されれば成功です。**
