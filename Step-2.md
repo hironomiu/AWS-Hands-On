@@ -324,7 +324,7 @@ $ sudo systemctl stop mysqld.service
 
 **ブラウザで Wordpress のサイトを確認しましょう**
 
-![rds-15](./images/step-2/rds-15.png "RDS15")
+![rds-15](./images/step-2/rds-15-new.png "RDS15")
 
 ## Question Http ステータスコードの確認
 
