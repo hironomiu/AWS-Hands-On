@@ -530,13 +530,13 @@ mysql>
 
 ---
 
-**インバウンドの一つ目の HTTP のルールのソースの値に「al」と入力しましょう。ELB(ALB)用に作成したセキュリティグループが補完して表示されたら選択しましょう。合わせて二つ目の HTTTP のルールはバツボタンにて削除しましょう**
+**インバウンドの一HTTP のルールはバツボタンにて削除し「ルールを追加」を押下**
 
 ![modify-security-group-3](./images/step-3/modify-security-group-3.png "MODIFY-SECURITY-GROUP-3")
 
 ---
 
-**HTTP のルールは 1 つにし、ELB(ALB)のセキュリティグループが指定できたら、「ルールを保存」を押下**
+**「user」などで補完し作成した「alb-userXX」を選択し「ルールを保存」を押下**
 
 ![modify-security-group-4](./images/step-3/modify-security-group-4.png "MODIFY-SECURITY-GROUP-4")
 
