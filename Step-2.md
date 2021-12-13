@@ -448,7 +448,7 @@ $ sudo vi /var/www/html/wordpress/wp-config.php
 
 **「ACL 有効」を選択、「私は、ACLが復元されることを了承します。」にチェック、「変更の保存」を押下**
 
-![create-s3-3f](./images/step-2/create-s3-3f.png "CREATE-S3-3F")
+![create-s3-3g](./images/step-2/create-s3-3g.png "CREATE-S3-3G")
 
 ---
 
