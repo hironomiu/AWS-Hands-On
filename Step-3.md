@@ -384,47 +384,69 @@ nameserver 10.0.0.2
 
 ---
 
-**Step-1 で作成した VPC を選択するとアベイラビリティゾーンの選択ができます。ap-northeast-1c、ap-northeast-1d の両方にチェックし、表示されたパブリックサブネットを両方選択し、「次の手順：セキュリティ設定の構成」を押下**
+**Step-1 で作成した VPC を選択するとアベイラビリティゾーンの選択ができます。ap-northeast-1c、ap-northeast-1d の両方にチェックし、表示されたパブリックサブネットを両方選択し、下にスクロールしましょう**
 
 ![create-elb-3-2](./images/step-3/create-elb-3-2.png "CREATE-ELB-3-2")
 
 ---
 
-**次の手順：セキュリティグループの設定を押下**
+**「default」のセキュリティグループは「x」で削除、「create new security group」のリンクを押下**
+
+![create-elb-3-3](./images/step-3/create-elb-3-3.png "CREATE-ELB-3-3")
+
+---
+
+**セキュリティグループは「alb-ユーザ名(例 alb-user01)」、説明も同じで、VPCはStep-1 で作成した VPC を選択、インバウンドルールでは「ルールを追加」を押下、「HTTP」を選択、ソース欄から「0.0.0.0/0」を選択し、下にスクロールしましょう**
+
+![create-elb-3-4](./images/step-3/create-elb-3-4.png "CREATE-ELB-3-4")
+
+---
+
+**「セキュリティグループを作成」を押下**
+
+![create-elb-3-5](./images/step-3/create-elb-3-5.png "CREATE-ELB-3-5")
+
+---
+
+**元の画面に戻り、セキュリティグループのリロードボタンを押下、「Security group」のプルダウンから先ほど作ったセキュリティグループ「alb-userXX」を選択、リロードでdefaultのセキュリティグループが登録されている場合は「x」で削除し、「Create target group」を押下**
 
 ![create-elb-4](./images/step-3/create-elb-4.png "CREATE-ELB-4")
 
 ---
 
-**新しいセキュリティグループを作成するをチェック、セキュリティグループ名と説明は「alb-userXX」を設定、タイプを「HTTP」に変更し、次の手順：ルーティングの設定ボタンを押下**
+**Target group nameは「tg-elb-ユーザ名(例 tg-elb-user01)」を記述し、下にスクロールしましょう**
+
+![create-elb-4-1](./images/step-3/create-elb-4-1.png "CREATE-ELB-4-1")
+
+---
+
+**作成したVPCを選択し、「Next」を押下**
+
+![create-elb-4-2](./images/step-3/create-elb-4-2.png "CREATE-ELB-4-2")
+
+---
+
+**全てのインスタンスをチェックし「Include as pending below」を押下、その後、下にターゲットが反映されたら「Create target group」を押下**
+
+![create-elb-4-3](./images/step-3/create-elb-4-3.png "CREATE-ELB-4-3")
+
+---
+
+**元の画面に戻り「Listener」のリロードボタンを押下し作成したtarget group「tg-elb-userXX」を選択し、下にスクロールしましょう**
 
 ![create-elb-5](./images/step-3/create-elb-5.png "CREATE-ELB-5")
 
 ---
 
-**名前は「tg-elb-userXX」を設定し、次の手順：ターゲットの登録ボタンを押下**
+**「Create load balancer」を押下**
 
 ![create-elb-6](./images/step-3/create-elb-6.png "CREATE-ELB-6")
 
 ---
 
-**下部に表示された 2 つのインスタンスを 2 つともチェックしましょう。チェックすると登録済みに追加ボタンが有効化されるので押下**
+**「View load balancer」を押下**
 
-**登録済みターゲットに 2 つのパブリックネットワーク上に存在するインスタンスが存在すること。「次の手順：確認」を押下**
-
-![create-elb-7-1](./images/step-3/create-elb-7-1.png "CREATE-ELB-7-1")
-
----
-
-**作成ボタンを押下**
-
-![create-elb-8](./images/step-3/create-elb-8.png "CREATE-ELB-8")
-
----
-
-**閉じるボタンを押下**
-
-![create-elb-9](./images/step-3/create-elb-9.png "CREATE-ELB-9")
+![create-elb-7](./images/step-3/create-elb-7.png "CREATE-ELB-7")
 
 ---
 
