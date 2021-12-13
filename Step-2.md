@@ -428,6 +428,30 @@ $ sudo vi /var/www/html/wordpress/wp-config.php
 
 ---
 
+**作成したバケットのリンクを押下**
+
+![create-s3-3d](./images/step-2/create-s3-3d.png "CREATE-S3-3D")
+
+---
+
+**アクセス許可を押下**
+
+![create-s3-3e](./images/step-2/create-s3-3e.png "CREATE-S3-3E")
+
+---
+
+**下にスクロールし「オブジェクト所有者」の編集を押下**
+
+![create-s3-3f](./images/step-2/create-s3-3f.png "CREATE-S3-3F")
+
+---
+
+**「ACL 有効」を選択、「私は、ACLが復元されることを了承します。」にチェック、「変更の保存」を押下**
+
+![create-s3-3f](./images/step-2/create-s3-3f.png "CREATE-S3-3F")
+
+---
+
 **Wordpress Media Library タブを選択し、作成した S3 バケット名を入力し、Save Bucket ボタンを押下**
 
 ![plugin-7](./images/step-2/plugin-7.png "PLUGIN7")
